@@ -21,7 +21,7 @@ add_env "LOGLEVEL" "ERROR"
 add_env "THROTTLE" "2s"
 add_env "MAXKEEPALIVE" "200"
 add_env "BACKENDSECURE" 'true'
-add_env "RANCHERDOMAIN" "ahgz.website"
+add_env "RANCHERDOMAIN" "example.com"
 add_env "REFRESH" "15"
 add_env "DEFAULTEXPOSE" "false"
 add_env "HEALTHCHECK" "true"
