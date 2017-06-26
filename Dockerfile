@@ -5,3 +5,4 @@ COPY entrypoint.sh /entrypoint.sh
 RUN mkdir -p /opt/etc/traefik/ ; chmod +x /entrypoint.sh
 
 ENTRYPOINT [ "/entrypoint.sh" ]
+CMD true
